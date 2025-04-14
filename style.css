@@ -8,12 +8,12 @@ body {
     margin:0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #1f2937;
 }
 
 
 header {
-    background: var(--dark);
+    background: #FFE6F0;
     color: white;
     padding: 1rem;
     display: flex;
@@ -22,9 +22,9 @@ header {
 }
 
 header nav a {
-    color: white;
+    color: #1f2937;
     margin-left: 1rem;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .hero {
@@ -37,6 +37,8 @@ section {
     padding: 2rem;
     background: white;
     margin: 2rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    border-radius: 16px;
 }
 
 footer {
@@ -47,7 +49,7 @@ footer {
 }
 
 #projects {
-    background-color: #f0f4ff;
+    background-color: #FFE6F0;
     padding: 3rem 1rem;
     border-top:2px solid #e5e7eb;
     border-bottom: 2px solid #e5e7eb;
@@ -122,7 +124,7 @@ footer {
 /* Hover effect for buttons */
 
 .btn:hover {
-    background-color:#3730a3;
+    background-color:darkslateblue;
     transition: background-color 0.3s ease;
 }
 
